@@ -1,5 +1,8 @@
 package edu.kis.vh.nursery;
-
+/**
+ * Reprezentuje podstawowy Rhymer, który przechowuje wartości całkowite
+ * i zwraca je w odwrotnej kolejności niż zostały dodane.
+ */
 public class DefaultCountingOutRhymer {
 
     public static final int CAPACITY = 12;
