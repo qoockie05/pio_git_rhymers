@@ -28,7 +28,7 @@ public class DefaultCountingOutRhymer {
 
     public boolean isFull() {
         return totalCount == MAX_INDEX;
-    }
+    } //TODO: przemyśleć lepszą nazwę tej metody
 
     protected int peekaboo() {
         if (callCheck())
