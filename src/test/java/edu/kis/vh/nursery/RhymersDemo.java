@@ -2,9 +2,8 @@ package edu.kis.vh.nursery;
 
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.RhymersFactory;
-//Projekt zweryfikowany za pomocą testów jednostkowych — nie wymaga poprawek.
 class RhymersDemo {
-    
+
     public static void main(String[] args) {
         RhymersFactory factory = new DefaultRhymersFactory();
         testRhymers(factory);

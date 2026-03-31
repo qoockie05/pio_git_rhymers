@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RhymersJUnitTest {
+//Projekt zweryfikowany za pomocą testów jednostkowych — nie wymaga poprawek.
 
     @Test
     public void testCountIn() {
