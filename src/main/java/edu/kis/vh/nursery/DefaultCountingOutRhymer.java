@@ -1,5 +1,8 @@
 package edu.kis.vh.nursery;
-
+/**
+ * Reprezentuje podstawowy Rhymer, który przechowuje wartości całkowite
+ * i zwraca je w odwrotnej kolejności niż zostały dodane.
+ */
 public class DefaultCountingOutRhymer {
 
     public static final int CAPACITY = 12;
@@ -25,7 +28,7 @@ public class DefaultCountingOutRhymer {
 
     public boolean isFull() {
         return totalCount == MAX_INDEX;
-    }
+    } //TODO: przemyśleć lepszą nazwę tej metody
 
     protected int peekaboo() {
         if (callCheck())
